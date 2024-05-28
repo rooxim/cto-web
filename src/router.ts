@@ -7,11 +7,11 @@ const routes = [
     name: 'Index',
     component: import('./pages/home.vue')
   },
-  {
-    path: '/:catchAll(.*)',
-    name: '404',
-    component: import('./pages/404.vue')
-  }
+  // {
+  //   path: '/:catchAll(.*)',
+  //   name: '404',
+  //   component: import('./pages/404.vue')
+  // }
 ];
 
 const router = createRouter({

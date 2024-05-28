@@ -21,4 +21,4 @@ const vuetify = createVuetify({
   }
 })
 
-createApp(App).use(router).use(VueSmoothScroll).use(vuetify).mount('#app')
+createApp(App).use(VueSmoothScroll).use(vuetify).use(router).mount('#app')
