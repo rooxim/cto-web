@@ -1,0 +1,30 @@
+{
+  "name": "rooxim",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.3.11",
+    "vue3-carousel": "^0.3.1",
+    "vue3-smooth-scroll": "^0.8.1",
+    "vuetify": "^3.4.8"
+  },
+  "devDependencies": {
+    "@mdi/font": "^7.3.67",
+    "@mdi/js": "^7.3.67",
+    "@vitejs/plugin-vue": "^4.5.2",
+    "sass": "^1.69.5",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vite-plugin-image-presets": "^0.3.4",
+    "vue-tsc": "^1.8.25"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "^4.9.1"
+  }
+}
