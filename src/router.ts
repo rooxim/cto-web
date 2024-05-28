@@ -18,6 +18,5 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes
 });
-console.log('BASE_URL', import.meta.env.BASE_URL)
 
 export default router;
