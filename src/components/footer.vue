@@ -1,22 +1,12 @@
 <template>
   <div class="footer">
-    <picture>
-      <source type="image/webp" srcset="@/assets/dummy.png?preset=img&format=webp&srcset">
-      <img src="@/assets/dummy.png?preset=img&src" srcset="@/assets/dummy.png?preset=img&srcset" alt=""/>
-    </picture>
+    @Copyright 2024 ROOXIM株式会社
   </div>
 </template>
 <style scoped lang="scss">
 .footer{
   margin-top: 20px;
   text-align: center;
-  img{
-    width: 100%;
-    height: 250px;
-    max-width: 700px;
-    object-fit: cover;
-    object-position: 50% 37%;
-  }
 }
 </style>
 <script setup lang="ts">

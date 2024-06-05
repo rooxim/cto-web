@@ -1,13 +1,9 @@
 <script setup lang="ts">
 
-const alt = 'dummy';
 </script>
 <template>
   <div id="about">
-    <picture>
-      <source type="image/webp" srcset="@/assets/dummy.png?preset=img&format=webp&srcset">
-      <img src="@/assets/dummy.png?preset=img&src" srcset="@/assets/dummy.png?preset=img&srcset"  :alt="alt"/>
-    </picture>
+    <h1>顧問CTOを雇う理由</h1>
   </div>
 </template>
 <style scoped lang="scss">
