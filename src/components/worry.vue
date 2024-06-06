@@ -60,7 +60,7 @@ const items = [
 <style scoped lang="scss">
 .itemsArea{
   padding: 20px;
-  background-color: #dfdfdf;
+  background-color: #ededed;
   display: flex;
   justify-content: center;
   align-items: center;
