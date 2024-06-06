@@ -1,22 +1,23 @@
 <script setup lang="ts">
-import headerArea from '../components/header.vue'
-import mainArea from '../components/main.vue'
-import Footer from '../components/footer.vue';
-import ActionMenu from '../components/ActionMenu.vue'
-import MainMessage from "../components/mainMessage.vue";
-import Worry from "../components/worry.vue";
-import About from "../components/about.vue";
+import headerArea from '@/components/header.vue'
+import mainArea from '@/components/main.vue'
+import Footer from '@/components/footer.vue';
+import MainMessage from '@/components/mainMessage.vue';
+import Worry from '@/components/worry.vue';
+import Advantages from '@/components/advantages.vue';
+import Prices from '@/components/prices.vue';
 </script>
 <template>
   <div class="root">
     <headerArea/>
     <mainArea/>
     <main-message/>
-    <about/>
+    <advantages/>
     <worry/>
+    <prices/>
 <!--    <Access />-->
     <Footer />
-    <action-menu />
+<!--    <action-menu />-->
   </div>
 </template>
 

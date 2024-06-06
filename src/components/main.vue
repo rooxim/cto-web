@@ -10,6 +10,9 @@
         <div class="key">CTOがほしい</div>
         <div class="key">費用を抑えたい</div>
       </div>
+      <div class="key-area">
+        <div class="key">技術的意見がほしい</div>
+      </div>
     </div>
   </div>
 </template>
@@ -57,7 +60,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  width: 20em;
+  width: 25em;
 }
 .key{
   padding: 10px;
@@ -68,6 +71,7 @@
   font-weight: bold;
   color: white;
   text-align: center;
+  font-size: 14px;
 }
 </style>
 <script setup lang="ts">

@@ -3,7 +3,10 @@
 </script>
 <template>
   <div id="about">
-    <h1>顧問CTOを雇う理由</h1>
+    <h1>顧問CTOを雇うメリット</h1>
+
+    見積もりによるコストの削減35%<br>
+    要件、開発のトラッキングによるプロジェクト成功率60%から95%
   </div>
 </template>
 <style scoped lang="scss">
