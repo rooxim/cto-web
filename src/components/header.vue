@@ -1,9 +1,10 @@
 <template>
-    <vAppBar>
-      <template v-slot:title>
-        <v-app-bar-title>あなたの組織のCTO</v-app-bar-title>
+    <v-app-bar>
+      <v-app-bar-title>あなたの組織のCTO</v-app-bar-title>
+      <template v-slot:append>
+        <Line/>
       </template>
-    </vAppBar>
+    </v-app-bar>
     <div class="dummy_space">
 
     </div>
@@ -16,4 +17,5 @@
 </style>
 <script setup lang="ts">
 
+import Line from '@/components/atoms/line.vue';
 </script>
