@@ -1,13 +1,10 @@
 <script setup lang="ts">
 </script>
 <template>
-  <v-app id="test">
-    <router-view />
-  </v-app>
+  <router-view />
 </template>
 <style lang="scss">
 #app{
-  margin: 0;
 }
 h1{
   text-align: center;

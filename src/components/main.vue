@@ -1,5 +1,5 @@
 <template>
-  <div class="main">
+  <v-container fluid class="main">
     <div class="content">
       <div class="message">
         あなたの組織のCTO
@@ -14,12 +14,11 @@
         <div class="key">技術的意見がほしい</div>
       </div>
     </div>
-  </div>
+  </v-container>
 </template>
 
 <style scoped lang="scss">
 .main{
-  width: 100svw;
   height: 500px;
   background-image: url("@/assets/main.jpg?preset=img&src");
   background-size: cover;

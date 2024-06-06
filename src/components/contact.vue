@@ -2,8 +2,8 @@
 
 </script>
 <template>
-  <v-container id="prices">
-    <h1>料金体系</h1>
+  <v-container id="contact">
+    <h1>お問い合わせ</h1>
     <div>9,800円/月</div>
     <table>
       <tr>
@@ -13,7 +13,7 @@
   </v-container>
 </template>
 <style scoped lang="scss">
-#prices{
+#contact{
   text-align: center;
   img{
     width: 100%;

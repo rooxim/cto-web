@@ -1,8 +1,8 @@
 <template>
-  <div class="main">
+  <v-container fluid class="main">
     通常CTOはxxx万の報酬が必要です。<br>
     あなたの組織のCTOでは5万円/月であなたの組織にCTOが居てくれるサービスです。
-  </div>
+  </v-container>
 </template>
 <style scoped lang="scss">
 .main{

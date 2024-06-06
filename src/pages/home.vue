@@ -6,24 +6,24 @@ import MainMessage from '@/components/mainMessage.vue';
 import Worry from '@/components/worry.vue';
 import Advantages from '@/components/advantages.vue';
 import Prices from '@/components/prices.vue';
+import Contact from "@/components/contact.vue";
+import ActionMenu from "@/components/ActionMenu.vue";
+import Join from "@/components/join.vue";
 </script>
 <template>
-  <div class="root">
-    <headerArea/>
-    <mainArea/>
-    <main-message/>
-    <advantages/>
-    <worry/>
-    <prices/>
-<!--    <Access />-->
-    <Footer />
-<!--    <action-menu />-->
-  </div>
+  <v-app>
+  <headerArea/>
+  <mainArea/>
+  <main-message/>
+  <worry/>
+  <advantages/>
+  <prices/>
+  <contact/>
+  <join/>
+  <Footer />
+  <action-menu />
+  </v-app>
 </template>
 
 <style scoped lang="scss">
-.root{
-  padding-bottom: 10px;
-  width: 100svw;
-}
 </style>

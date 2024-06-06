@@ -21,64 +21,56 @@ onMounted(()=>{
   },500)
 })
 
+const menus = [
+  {
+    icon: mdiInformationOutline,
+    target: '#worry',
+    text: 'こんな悩みありませんか？'
+  },
+  {
+    icon: mdiInformationOutline,
+    target: '#advantages',
+    text: 'メリット'
+  },
+  {
+    icon: mdiInformationOutline,
+    target: '#prices',
+    text: '料金体系'
+  },
+  {
+    icon: mdiInformationOutline,
+    target: '#contact',
+    text: 'お問い合わせ'
+  },
+  {
+    icon: mdiInformationOutline,
+    target: '#join',
+    text: 'お申し込み'
+  },
+];
+
 </script>
 <template>
   <div class="content">
     <v-expand-transition>
       <div class="menu" v-show="show">
+
+
         <v-tooltip
+            v-for="item in menus"
             :model-value="showTooltip"
             @update:model-value="()=>{}"
-            text="紹介"
+            :text="item.text"
             location="start">
           <template v-slot:activator="{ props }">
             <v-btn
-                href="#about"
-                v-smooth-scroll="{duration: 1000}"
+                :href="item.target"
+                v-smooth-scroll="{
+                  duration: 1000,
+                  offset: -50,
+                }"
                 v-bind="props"
                 :icon="mdiInformationOutline"
-                size="large" />
-          </template>
-        </v-tooltip>
-        <v-tooltip
-            :model-value="showTooltip"
-            @update:model-value="()=>{}"
-            text="dummy"
-            location="start">
-          <template v-slot:activator="{ props }">
-            <v-btn
-                href="#menu"
-                v-smooth-scroll="{duration: 1000}"
-                v-bind="props"
-                :icon="mdiSilverware"
-                size="large" />
-          </template>
-        </v-tooltip>
-        <v-tooltip
-            :model-value="showTooltip"
-            @update:model-value="()=>{}"
-            text="dummy"
-            location="start">
-          <template v-slot:activator="{ props }">
-            <v-btn
-                href="#shop"
-                v-smooth-scroll="{duration: 1000}"
-                v-bind="props"
-                :icon="mdiStore"
-                size="large" />
-          </template>
-        </v-tooltip>
-        <v-tooltip
-            :model-value="showTooltip"
-            @update:model-value="()=>{}"
-            text="アクセス"
-            location="start">
-          <template v-slot:activator="{ props }">
-            <v-btn
-                href="#access"
-                v-smooth-scroll="{duration: 1000}"
-                v-bind="props"
-                :icon="mdiMap"
                 size="large" />
           </template>
         </v-tooltip>
@@ -105,7 +97,7 @@ onMounted(()=>{
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  height: 250px;
+  height: calc(v-bind('menus.length') * 60px);
 
 }
 </style>

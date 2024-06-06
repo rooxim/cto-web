@@ -38,7 +38,7 @@ const items = [
 ]
 </script>
 <template>
-  <div id="worry">
+  <v-container id="worry">
     <h1>こんな悩みありませんか？</h1>
 
     <div class="itemsArea">
@@ -54,7 +54,7 @@ const items = [
         </div>
       </div>
     </div>
-  </div>
+  </v-container>
 </template>
 
 <style scoped lang="scss">
