@@ -15,10 +15,10 @@ import How from "@/components/how.vue";
   <headerArea/>
   <mainArea/>
   <main-message/>
+  <prices/>
+  <how/>
   <worry/>
   <advantages/>
-  <how/>
-  <prices/>
   <contact/>
   <Footer />
   <action-menu />

@@ -7,9 +7,9 @@
       <div class="subMessage">必要な時間だけ、必要なタイミングで</div>
 
       <div class="key-area">
-        <div class="key">CTOがほしい</div>
-        <div class="key">費用を抑えたい</div>
-        <div class="key">技術的意見がほしい</div>
+        <div class="key">1位. CTOがほしい</div>
+        <div class="key">2位. 費用を抑えたい</div>
+        <div class="key">3位. 技術的意見がほしい</div>
       </div>
     </div>
   </v-container>
@@ -54,19 +54,20 @@
 .key-area{
   margin-top: 20px;
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
+  align-items: start;
   justify-content: space-around;
   width: 25em;
 }
 .key{
   padding: 10px;
-  background-image: linear-gradient(to right, red , #dd7c09);
-  border-radius: 100px;
+  //background-image: linear-gradient(to right, red , #dd7c09);
+  //border-radius: 100px;
   font-weight: bold;
-  color: white;
+  //color: white;
   text-align: center;
   font-size: 14px;
+  border-bottom: solid 1px;
 }
 </style>
 <script setup lang="ts">
