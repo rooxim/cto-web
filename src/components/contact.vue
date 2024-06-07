@@ -1,15 +1,12 @@
 <script setup lang="ts">
-
+import Mail from "@/components/atoms/mail.vue";
+import Line from "@/components/atoms/line.vue";
 </script>
 <template>
   <v-container id="contact">
     <h1>お問い合わせ</h1>
-    <div>9,800円/月</div>
-    <table>
-      <tr>
-        <td></td>
-      </tr>
-    </table>
+    <div>まずはお気軽にお問い合わせください。</div>
+    <Line/> <Mail/>
   </v-container>
 </template>
 <style scoped lang="scss">

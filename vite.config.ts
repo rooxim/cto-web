@@ -49,6 +49,7 @@ export default defineConfig({
     rollupOptions: {
       input: entryPoints(
         "index.html",
+        "contact.html",
         "404.html",
       ),
     },

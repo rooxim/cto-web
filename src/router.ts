@@ -8,6 +8,11 @@ const routes = [
     component:()=> import('./pages/home.vue')
   },
   {
+    path: '/contact',
+    name: 'Contact',
+    component:()=> import('./pages/contact.vue')
+  },
+  {
     path: '/:catchAll(.*)',
     name: '404',
     component:()=> import('./pages/404.vue')

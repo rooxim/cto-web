@@ -8,7 +8,7 @@ import Advantages from '@/components/advantages.vue';
 import Prices from '@/components/prices.vue';
 import Contact from "@/components/contact.vue";
 import ActionMenu from "@/components/ActionMenu.vue";
-import Join from "@/components/join.vue";
+import How from "@/components/how.vue";
 </script>
 <template>
   <v-app>
@@ -17,9 +17,9 @@ import Join from "@/components/join.vue";
   <main-message/>
   <worry/>
   <advantages/>
+  <how/>
   <prices/>
   <contact/>
-  <join/>
   <Footer />
   <action-menu />
   </v-app>

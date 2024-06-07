@@ -9,8 +9,6 @@
       <div class="key-area">
         <div class="key">CTOがほしい</div>
         <div class="key">費用を抑えたい</div>
-      </div>
-      <div class="key-area">
         <div class="key">技術的意見がほしい</div>
       </div>
     </div>
@@ -63,8 +61,6 @@
 }
 .key{
   padding: 10px;
-  border: white 3px solid;
-  box-shadow: 0 0 10px rgba(0,0,0,.3);
   background-image: linear-gradient(to right, red , #dd7c09);
   border-radius: 100px;
   font-weight: bold;

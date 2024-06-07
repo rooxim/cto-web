@@ -35,17 +35,17 @@ const menus = [
   {
     icon: mdiInformationOutline,
     target: '#prices',
-    text: '料金体系'
-  },
-  {
-    icon: mdiInformationOutline,
-    target: '#contact',
-    text: 'お問い合わせ'
+    text: '料金プラン'
   },
   {
     icon: mdiInformationOutline,
     target: '#join',
     text: 'お申し込み'
+  },
+  {
+    icon: mdiInformationOutline,
+    target: '#contact',
+    text: 'お問い合わせ'
   },
 ];
 
