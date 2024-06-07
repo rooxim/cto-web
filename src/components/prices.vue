@@ -7,6 +7,7 @@ const plans = [
     ticket: '0枚/月',
     priceMonth: '9,800円/月',
     priceYear: '100,000円/月',
+    setupCost: '4,900円',
     color: '#ececec'
   },
   {
@@ -14,15 +15,17 @@ const plans = [
     consultation: '相談し放題',
     ticket: '1枚/月',
     priceMonth: '24,800円/月',
-    priceYear: '288,000円/月',
+    priceYear: '248,000円/月',
+    setupCost: '4,900円',
     color: '#b3ea96'
   },
   {
     name: 'プラチナプラン',
     consultation: '相談し放題',
-    ticket: '5枚/月',
-    priceMonth: '108,000円/月',
-    priceYear: '1,100,000円/月',
+    ticket: '10枚/月',
+    priceMonth: '198,000円/月',
+    priceYear: '1,980,000円/月',
+    setupCost: '0円',
     color: '#c6eeff'
   }
 ];
@@ -32,6 +35,7 @@ const displayItems = [
   {key: 'ticket' , name: "チケット"},
   {key: 'priceMonth' , name: "月々支払い"},
   {key: 'priceYear' , name: "年一括支払い"},
+  {key: 'setupCost', name: "初回手数料"}
 ];
 </script>
 <template>
@@ -68,10 +72,6 @@ const displayItems = [
       1チケット: 20,000円で追加購入頂けます。<br>
     </div>
 
-    <h2>その他事項について</h2>
-    <div>
-      チケットは
-    </div>
   </v-container>
 </template>
 <style scoped lang="scss">
