@@ -9,6 +9,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vee-validate/rules": "^4.13.1",
+    "axios": "^1.7.2",
+    "vee-validate": "^4.13.1",
     "vue": "^3.3.11",
     "vue-router": "^4.3.2",
     "vue3-carousel": "^0.3.1",

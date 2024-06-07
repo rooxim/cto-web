@@ -10,14 +10,16 @@ const items = [
       img,
       srcset,
     },
-    message: 'メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ'
+    title: '相見積もりを取って開発したけれど、プロジェクトが失敗した。',
+    message: ''
   },{
     images:{
       webp,
       img,
       srcset,
     },
-    message: 'メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ'
+    title: 'システムを使ったサービスを始めたいけどなにをしたらいいかわからない。',
+    message: ''
   },
   {
     images:{
@@ -25,7 +27,8 @@ const items = [
       img,
       srcset,
     },
-    message: 'メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ'
+    title: 'エンジニアに開発をお願いしているが何を言っているかわからない。',
+    message: ''
   },
   {
     images:{
@@ -33,7 +36,8 @@ const items = [
       img,
       srcset,
     },
-    message: 'メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ　メッセージ'
+    title: '技術選定をしたが、本当に問題ないか不安',
+    message: ''
   }
 ]
 </script>
@@ -49,6 +53,7 @@ const items = [
             <img :src="item.images.img" :srcset="item.images.srcset" alt="dummy" />
           </picture>
           <div class="message">
+            <div class="title">{{item.title}}</div>
             {{item.message}}
           </div>
         </div>
@@ -73,7 +78,7 @@ const items = [
   justify-content: space-around;
 
   .item{
-    flex-basis: 32%;
+    flex-basis: 49%;
     background-color: #ffffff;
     padding: 10px;
     margin: 5px 0;
@@ -89,11 +94,16 @@ const items = [
     .message{
       padding: 0 5px;
       font-size: 14px;
+
+      .title{
+        font-weight: bold;
+        font-size: 16px;
+      }
     }
   }
   @media screen and (max-width: 900px) {
     .item{
-      flex-basis: 49%;
+      flex-basis: 100%;
     }
   }
 

@@ -1,74 +1,9 @@
 <script setup lang="ts">
 
-const plans = [
-  {
-    name: 'スタンダードプラン',
-    consultation: '相談し放題',
-    ticket: '技術相談',
-    priceMonth: '9,800円/月',
-    priceYear: '100,000円/月',
-    setupCost: '4,900円',
-    color: '#ececec',
-    payment: 'https://buy.stripe.com/test_6oEcOzdMO4Kr8V27su',
-  },
-  {
-    name: 'プレミアムプラン',
-    consultation: '相談し放題',
-    ticket: '技術相談 / 工数見積り / 最適化検討 / その他懸念事項相談',
-    priceMonth: '24,800円/月',
-    priceYear: '248,000円/月',
-    setupCost: '4,900円',
-    color: '#b3ea96',
-    payment: 'https://buy.stripe.com/test_9AQ01N246ccT2wEdQR'
-  },
-  // {
-  //   name: 'プラチナプラン',
-  //   consultation: '相談し放題',
-  //   ticket: '10枚/月',
-  //   priceMonth: '198,000円/月',
-  //   priceYear: '1,980,000円/月',
-  //   setupCost: '0円',
-  //   color: '#c6eeff'
-  // }
-];
-
-const displayItems = [
-  // {key: 'consultation' , name: "相談"},
-  {key: 'ticket' , name: "対応内容"},
-  {key: 'priceMonth' , name: "月々支払い"},
-  {key: 'priceYear' , name: "年一括支払い"},
-  // {key: 'setupCost', name: "初回手数料"}
-];
 </script>
 <template>
   <v-container id="prices">
     <h1>プラン</h1>
-
-<!--    <table class="price-table">-->
-<!--      <thead>-->
-<!--      <tr>-->
-<!--        <td></td>-->
-<!--        <td v-for="item in plans" :style="{'&#45;&#45;border-color':item.color}">-->
-<!--          <div class="head">{{item.name}}</div>-->
-<!--        </td>-->
-<!--      </tr>-->
-<!--      </thead>-->
-<!--      <tbody>-->
-<!--      <tr v-for="displayItem in displayItems">-->
-<!--        <td>{{displayItem.name}}</td>-->
-<!--        <td v-for="item in plans"  :style="{'&#45;&#45;border-color':item.color}">-->
-<!--          <div class="item">{{ item[displayItem.key] }}</div>-->
-<!--        </td>-->
-<!--      </tr>-->
-<!--      <tr>-->
-<!--        <td></td>-->
-<!--        <td v-for="item in plans"  :style="{'&#45;&#45;border-color':item.color}">-->
-<!--          <div class="item"><v-btn size="x-large" :href="item.payment" :color="item.color" block>{{item.name}}に申し込む</v-btn></div>-->
-<!--        </td>-->
-<!--      </tr>-->
-<!--      </tbody>-->
-<!--    </table>-->
-
 
     <stripe-pricing-table pricing-table-id="prctbl_1PP2LIBcykgBJMyJ30UuNymf"
                           publishable-key="pk_test_51KtqDVBcykgBJMyJBEMfGm2vma6X2RS3hqQ5vmbHG97UpvjCzSL8yy75wg8XdFDbWeg8uJhnSGfIpcGm9r0M4NuO00OVoqRmgu">
