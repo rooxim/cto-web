@@ -120,6 +120,7 @@ const displayItems = [
       tr:last-child{
         td{
           border-bottom: solid 1px var(--border-color);
+          border-radius: 0 0 10px 10px;
         }
         td:first-child{
           border-bottom: none;
