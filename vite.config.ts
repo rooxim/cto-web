@@ -56,7 +56,6 @@ export default defineConfig({
   }
 });
 
-
 function entryPoints(...paths) {
   const entries = paths.map(parse).map(entry => {
     const { dir, base, name, ext } = entry;

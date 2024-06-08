@@ -3,38 +3,53 @@ import webp from "@/assets/dummy.png?preset=img&format=webp&srcset";
 import img from "@/assets/dummy.png?preset=img&src";
 import srcset from "@/assets/dummy.png?preset=img&srcset";
 
+import webpHm1 from "@/assets/hm1.jpg?preset=img&format=webp&srcset";
+import imgHm1 from "@/assets/hm1.jpg?preset=img&src";
+import srcsetHm1 from "@/assets/hm1.jpg?preset=img&srcset";
+
+import webpHm2 from "@/assets/hm2.jpg?preset=img&format=webp&srcset";
+import imgHm2 from "@/assets/hm2.jpg?preset=img&src";
+import srcsetHm2 from "@/assets/hm2.jpg?preset=img&srcset";
+
+import webpMoni from "@/assets/moni.jpg?preset=img&format=webp&srcset";
+import imgMoni from "@/assets/moni.jpg?preset=img&src";
+import srcsetMoni from "@/assets/moni.jpg?preset=img&srcset";
+
+import webpHm3 from "@/assets/hm3.jpg?preset=img&format=webp&srcset";
+import imgHm3 from "@/assets/hm3.jpg?preset=img&src";
+import srcsetHm3 from "@/assets/hm3.jpg?preset=img&srcset";
 const items = [
   {
     images:{
-      webp,
-      img,
-      srcset,
+      webp:webpHm1,
+      img:imgHm1,
+      srcset:srcsetHm1,
     },
     title: '相見積もりを取って開発したけれど、プロジェクトが失敗した。',
     message: ''
   },{
     images:{
-      webp,
-      img,
-      srcset,
+      webp:webpHm2,
+      img:imgHm2,
+      srcset:srcsetHm2,
     },
     title: 'システムを使ったサービスを始めたいけどなにをしたらいいかわからない。',
     message: ''
   },
   {
     images:{
-      webp,
-      img,
-      srcset,
+      webp: webpMoni,
+      img: imgMoni,
+      srcset: srcsetMoni,
     },
     title: 'エンジニアに開発をお願いしているが何を言っているかわからない。',
     message: ''
   },
   {
     images:{
-      webp,
-      img,
-      srcset,
+      webp:webpHm3,
+      img:imgHm3,
+      srcset:srcsetHm3,
     },
     title: '技術選定をしたが、本当に問題ないか不安',
     message: ''
@@ -89,6 +104,7 @@ const items = [
       border-radius: 10px;
       width: 80px;
       height: 80px;
+      object-fit: cover;
     }
 
     .message{
