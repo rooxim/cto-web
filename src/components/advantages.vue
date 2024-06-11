@@ -1,53 +1,56 @@
 <script setup lang="ts">
-import webp from "@/assets/dummy.png?preset=img&format=webp&srcset";
-import img from "@/assets/dummy.png?preset=img&src";
-import srcset from "@/assets/dummy.png?preset=img&srcset";
+import webp1 from "@/assets/benefit1.svg?preset=img&format=svg&srcset";
+import img1 from "@/assets/benefit1.svg?preset=img&format=svg&src";
+import srcset1 from "@/assets/benefit1.svg?preset=img&format=svg&srcset";
+import webp2 from "@/assets/benefit2.svg?preset=img&format=webp&srcset";
+import img2 from "@/assets/benefit2.svg?preset=img&format=svg&src";
+import srcset2 from "@/assets/benefit2.svg?preset=img&format=svg&srcset";
+import webp3 from "@/assets/benefit3.svg?preset=img&format=webp&srcset";
+import img3 from "@/assets/benefit3.svg?preset=img&format=svg&src";
+import srcset3 from "@/assets/benefit3.svg?preset=img&format=svg&srcset";
 
 const items = [
   {
     images: {
-      webp,
-      img,
-      srcset,
+      webp:webp1,
+      img:img1,
+      srcset:srcset1,
     },
-    alt: '',
-    title: 'システム開発を依頼し易い',
-    text: 'システム開発をする際、相場感や出来上がるものに不安を感じることは少なくありません。\n' +
-        'また、実際に開発を進めていくと本当にこれで運用できるのか？など不安も増えていきます。\n' +
-        'システム的に理解している方であればよいですが、システムに詳しくなければ更に不安は大きいと思います。\n' +
-        '顧問CTOが居るとそんな不安が削減出来ます。あなたの組織のCTOはシステム開発のプロフェッショナルです。。\n' +
-        '本当に必要なシステムはなにか、お客様と明確化してシステムの開発に必要な費用をご提示します。'
+    alt: '即座の専門知識へのアクセス',
+    title: '即座の専門知識へのアクセス',
+    text: 'システム開発に関する質問が発生した際に、専門家の意見や助言を直ちに得ることができます。これにより、プロジェクトの進行がスムーズになり、問題解決にかかる時間が短縮されます。'
   },
   {
     images: {
-      webp,
-      img,
-      srcset,
+      webp:webp2,
+      img:img2,
+      srcset:srcset2,
     },
-    alt: '',
-    title: '見積もりによるコストの削減35%',
-    text: 'メッセージ メッセージ メッセージ メッセージ メッセージ メッセージ メッセージ メッセージ'
+    alt: 'リソースの柔軟な利用',
+    title: 'リソースの柔軟な利用',
+    text: 'プロジェクトに必要なプロフェッショナルな意見やアドバイスを必要な時に必要なだけ利用できるため、リソースの効率的な活用が可能です。組織内に特定の専門家を雇う必要がなくなり、プロジェクトのニーズに応じて柔軟に対応できます。\n' +
+        '\n'
   },
   {
     images: {
-      webp,
-      img,
-      srcset,
+      webp:webp3,
+      img:img3,
+      srcset:srcset3,
     },
-    alt: '',
-    title: '要件、開発のトラッキングによるプロジェクト成功率60%から95%',
-    text: 'メッセージ メッセージ メッセージ メッセージ メッセージ メッセージ メッセージ メッセージ'
+    alt: '効率的な資源活用',
+    title: '効率的な資源活用',
+    text: '定額制のサービスとして提供されるため、予算を管理しやすくなります。従来のコンサルティングサービスに比べて予測可能性が高く、予想外の費用が発生するリスクを軽減します。'
   }
 ]
 </script>
 <template>
   <v-container id="advantages">
-    <h1>顧問CTOに相談できるメリット</h1>
+    <h1>サービスの特徴</h1>
 
     <div class="item" v-for="item in items">
       <div>
         <picture>
-          <source type="image/webp" :srcset="item.images.webp">
+<!--          <source type="image/webp" :srcset="item.images.webp">-->
           <img :src="item.images.img" :srcset="item.images.srcset" :alt="item.alt" />
         </picture>
       </div>
@@ -70,28 +73,19 @@ const items = [
   .item{
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
+    margin-top: 40px;
     text-align: left;
 
-    &:nth-child(odd){
+    &:nth-child(even){
       flex-direction: row-reverse;
-      text-align: right;
+      text-align: left;
     }
 
     div{
-      padding: 5px;
-      &:has(img){
+      padding: 20px 40px;
+
+      &:has(picture){
         padding: 0;
-        position: relative;
-        &:after{
-          position: absolute;
-          content: '';
-          top: 0;
-          bottom: 0;
-          left: 0;
-          right: 0;
-          box-shadow: inset 0 0 10px 10px white;
-        }
       }
 
       img{
@@ -102,7 +96,8 @@ const items = [
       flex: 1;
       font-size: 16px;
       .commentTitle{
-        font-size: 20px;
+        color: #dd7c09;
+        font-size: 24px;
         font-weight: bold;
       }
     }
@@ -111,11 +106,9 @@ const items = [
   @media only screen and (max-width: 750px) {
     .item{
       flex-direction: column;
-      text-align: left;
 
-      &:nth-child(odd){
+      &:nth-child(even){
         flex-direction: column;
-        text-align: left;
       }
     }
   }

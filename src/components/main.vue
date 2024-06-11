@@ -7,6 +7,7 @@
       <div class="subMessage">必要な時間だけ、必要なタイミングで</div>
 
       <div class="key-area">
+        <div class="title">よくあるのお悩み</div>
         <div class="key">1位. CTOがほしい</div>
         <div class="key">2位. 費用を抑えたい</div>
         <div class="key">3位. 技術的意見がほしい</div>
@@ -58,17 +59,24 @@
   align-items: start;
   justify-content: space-around;
   width: 25em;
+
+  .title{
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .key{
+    padding: 10px;
+    //background-image: linear-gradient(to right, red , #dd7c09);
+    //border-radius: 100px;
+    font-weight: bold;
+    //color: white;
+    text-align: center;
+    font-size: 14px;
+    border-bottom: solid 1px;
+  }
 }
-.key{
-  padding: 10px;
-  //background-image: linear-gradient(to right, red , #dd7c09);
-  //border-radius: 100px;
-  font-weight: bold;
-  //color: white;
-  text-align: center;
-  font-size: 14px;
-  border-bottom: solid 1px;
-}
+
 </style>
 <script setup lang="ts">
 </script>
