@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import webp1 from "@/assets/benefit1.svg?preset=img&format=svg&srcset";
-import img1 from "@/assets/benefit1.svg?preset=img&format=svg&src";
-import srcset1 from "@/assets/benefit1.svg?preset=img&format=svg&srcset";
-import webp2 from "@/assets/benefit2.svg?preset=img&format=webp&srcset";
-import img2 from "@/assets/benefit2.svg?preset=img&format=svg&src";
-import srcset2 from "@/assets/benefit2.svg?preset=img&format=svg&srcset";
-import webp3 from "@/assets/benefit3.svg?preset=img&format=webp&srcset";
-import img3 from "@/assets/benefit3.svg?preset=img&format=svg&src";
-import srcset3 from "@/assets/benefit3.svg?preset=img&format=svg&srcset";
+import webp1 from "@/assets/benefit1.svg";
+import img1 from "@/assets/benefit1.svg";
+import srcset1 from "@/assets/benefit1.svg";
+import webp2 from "@/assets/benefit2.svg";
+import img2 from "@/assets/benefit2.svg";
+import srcset2 from "@/assets/benefit2.svg";
+import webp3 from "@/assets/benefit3.svg";
+import img3 from "@/assets/benefit3.svg";
+import srcset3 from "@/assets/benefit3.svg";
 
 const items = [
   {
