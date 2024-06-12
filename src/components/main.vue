@@ -4,13 +4,13 @@
       <div class="message">
         あなたの組織のCTO
       </div>
-      <div class="subMessage">必要な時間だけ、必要なタイミングで</div>
+      <div class="subMessage">定額の顧問CTOサービス</div>
 
       <div class="key-area">
-        <div class="title">よくあるのお悩み</div>
-        <div class="key">1位. CTOがほしい</div>
-        <div class="key">2位. 費用を抑えたい</div>
-        <div class="key">3位. 技術的意見がほしい</div>
+        <div class="title">よくあるお悩み</div>
+        <div class="key">1位. 技術意見がほしい</div>
+        <div class="key">2位. 無駄な開発費用をを抑えたい</div>
+        <div class="key">3位. 会社に技術経営の要観点入れたい</div>
       </div>
     </div>
   </v-container>
@@ -66,14 +66,18 @@
   }
 
   .key{
-    padding: 10px;
+    margin-top: 10px;
+    padding: 5px;
     //background-image: linear-gradient(to right, red , #dd7c09);
     //border-radius: 100px;
     font-weight: bold;
     //color: white;
     text-align: center;
-    font-size: 14px;
-    border-bottom: solid 1px;
+    font-size: 18px;
+    line-height: 18px;
+    border-bottom: solid 1px red;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.36);
   }
 }
 

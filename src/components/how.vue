@@ -4,6 +4,7 @@
 <template>
   <v-container id="how">
     <h1>サービスのご紹介</h1>
+    ！！！ここに Slack、Line、Chatworksの画像をいれる。！！！
     <div class="message">
       Slack、Line、Chatworksにてご質問頂けます。<br>
       まずは御社のSlack、Line、Chatworksに弊社アカウントを追加いただきます。<br>
@@ -25,6 +26,8 @@
 </template>
 <style scoped lang="scss">
 #how{
+  font-size: 20px;
+  line-height: 35px;
   .notion, .message{
     max-width: 50%;
     margin-top: 20px;
