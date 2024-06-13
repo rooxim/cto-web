@@ -4,10 +4,10 @@
 <template>
   <v-container id="how">
     <h1>サービスのご紹介</h1>
-    ！！！ここに Slack、Line、Chatworksの画像をいれる。！！！
     <div class="message">
-      Slack、Line、Chatworksにてご質問頂けます。<br>
-      まずは御社のSlack、Line、Chatworksに弊社アカウントを追加いただきます。<br>
+      <img src="@/assets/image.svg">
+      Slack、Line、Chatworkにてご質問頂けます。
+      まずは御社のSlack、Line、Chatworkに弊社アカウントを追加いただきます。<br>
       あとは、ご質問いただければ技術的な質問にご回答させていただきます。
     </div>
 
@@ -29,9 +29,9 @@
   font-size: 20px;
   line-height: 35px;
   .notion, .message{
-    max-width: 50%;
+    max-width: 750px;
     margin-top: 20px;
-    width: 50%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -41,7 +41,8 @@
   }
 
   .action{
-    width: 50%;
+    max-width: 600px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     background-color: #dd7c09;

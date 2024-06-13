@@ -6,7 +6,7 @@
 
     <h1>プラン</h1>
 
-    <div class="red">
+    <div class="notion">
       年額だと2ヶ月分無料
     </div>
 
@@ -28,10 +28,11 @@
     margin-top: 20px;
     font-size: 24px;
   }
-  .red{
+  .notion{
     color: red;
     font-weight: bold;
     font-size: 25px;
+    line-height: 80px;
   }
 
   .emphasis {

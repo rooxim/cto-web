@@ -83,6 +83,9 @@ const items = [
 
     div{
       padding: 20px 40px;
+      line-height: 34px;
+      font-size: 18px;
+      color: black;
 
       &:has(picture){
         padding: 0;
@@ -94,7 +97,6 @@ const items = [
 
       }
       flex: 1;
-      font-size: 16px;
       .commentTitle{
         color: #dd7c09;
         font-size: 24px;

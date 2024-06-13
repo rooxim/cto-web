@@ -68,16 +68,14 @@
   .key{
     margin-top: 10px;
     padding: 5px;
-    //background-image: linear-gradient(to right, red , #dd7c09);
-    //border-radius: 100px;
     font-weight: bold;
-    //color: white;
     text-align: center;
     font-size: 18px;
     line-height: 18px;
     border-bottom: solid 1px red;
-    color: white;
-    background-color: rgba(255, 0, 0, 0.36);
+    color: black;
+    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 0.14);
   }
 }
 
