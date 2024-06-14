@@ -10,8 +10,8 @@
       年額だと2ヶ月分無料
     </div>
 
-    <stripe-pricing-table pricing-table-id="prctbl_1PP2LIBcykgBJMyJ30UuNymf"
-                          publishable-key="pk_test_51KtqDVBcykgBJMyJBEMfGm2vma6X2RS3hqQ5vmbHG97UpvjCzSL8yy75wg8XdFDbWeg8uJhnSGfIpcGm9r0M4NuO00OVoqRmgu">
+    <stripe-pricing-table pricing-table-id="prctbl_1PRXibBcykgBJMyJb0dY7CSz"
+                          publishable-key="pk_live_51KtqDVBcykgBJMyJjFFzdgAsejY0oFCPtpENBuXsuC62jj6gMStbltWuj9TTPhK7V21tOTeEmSwQ77zpNFCkmsLp00nmpF1Y6A">
     </stripe-pricing-table>
 
     <div class="note">
