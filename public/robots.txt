@@ -1,4 +1,4 @@
 User-agent: *
-Sitemap: https://test.rooxim.net/sitemap.xml
+Sitemap: https://cto.rooxim.com/sitemap.xml
 
-Disallow: /
+Allow: /
