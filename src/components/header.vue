@@ -24,15 +24,16 @@ onMounted(()=>{
       <v-app-bar-title>あなたの組織のCTO</v-app-bar-title>
       <template v-slot:append v-if="small===false">
         <div class="append">
-<!--          <Line/>-->
-          <Mail/>
+<!--          <div><Line/></div>-->
+          <div><Mail/></div>
+
         </div>
       </template>
       <template v-slot:extension v-if="small===true">
         <div class="extension">
           <div class="append">
-<!--            <Line/>-->
-            <Mail/>
+<!--            <div><Line/></div>-->
+            <div><Mail/></div>
           </div>
         </div>
     </template>
@@ -51,23 +52,44 @@ onMounted(()=>{
   justify-content: end;
   width: 350px;
 
-  @media screen and (max-width: 360px){
-    flex-direction: column;
-    width: 100%;
-    height: 80px;
-  }
-}
-.v-toolbar__content{
-  @media screen and (max-width: 600px){
-    height: 100px !important;
+
+  div{
+    margin-left: 10px;
   }
 }
 
 .extension{
   width: 100%;
+
   .append{
     margin-right: auto;
     margin-left: auto;
+
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+    width: 100%;
+
+    div{
+      padding: 10px 0;
+    }
+
+    @media screen and (max-width: 400px){
+      flex-direction: column;
+
+      div{
+        padding: 2px 0;
+      }
+
+    }
   }
 }
+
+//:deep(.v-toolbar__extension){
+//  @media screen and (max-width: 400px){
+//    height: 90px !important;
+//  }
+//}
 </style>
