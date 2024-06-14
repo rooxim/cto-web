@@ -75,7 +75,7 @@
     border-bottom: solid 1px red;
     color: black;
     border-radius: 5px;
-    background-color: rgba(255, 0, 0, 0.14);
+    background-color: rgb(255, 221, 221);
   }
 }
 
