@@ -1,6 +1,6 @@
 <template>
   <v-container fluid class="main">
-    通常CTOはCEO,COOに次ぐ高額な報酬が必要です。<br>
+    通常CTOを雇用するにはCEO,COOに次ぐ高額な報酬が必要です。<br>
     <b>”あなたの組織のCTO”</b>では9,800円〜/月であなたの会社、プロジェクトにCTOが参画するサービスです。
   </v-container>
 </template>
