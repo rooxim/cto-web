@@ -24,14 +24,14 @@ onMounted(()=>{
       <v-app-bar-title>あなたの組織のCTO</v-app-bar-title>
       <template v-slot:append v-if="small===false">
         <div class="append">
-          <Line/>
+<!--          <Line/>-->
           <Mail/>
         </div>
       </template>
       <template v-slot:extension v-if="small===true">
         <div class="extension">
           <div class="append">
-            <Line/>
+<!--            <Line/>-->
             <Mail/>
           </div>
         </div>
@@ -48,7 +48,7 @@ onMounted(()=>{
 }
 .append{
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
   width: 350px;
 
   @media screen and (max-width: 360px){

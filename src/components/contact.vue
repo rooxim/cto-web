@@ -6,7 +6,8 @@ import Line from "@/components/atoms/line.vue";
   <v-container id="contact">
     <h1>お問い合わせ</h1>
     <div>まずはお気軽にお問い合わせください。</div>
-    <Line/> <Mail/>
+<!--    <Line/>-->
+    <Mail/>
   </v-container>
 </template>
 <style scoped lang="scss">
