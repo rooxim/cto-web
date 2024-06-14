@@ -8,7 +8,7 @@
 
       <div class="key-area">
         <div class="title">よくあるお悩み</div>
-        <div class="key">1位. 技術意見がほしい</div>
+        <div class="key">1位. 技術的な意見がほしい</div>
         <div class="key">2位. 無駄な開発費用をを抑えたい</div>
         <div class="key">3位. 会社に技術経営の要観点入れたい</div>
       </div>
