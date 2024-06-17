@@ -18,7 +18,26 @@ import srcsetMoni from "@/assets/moni.jpg?preset=img&srcset";
 import webpHm3 from "@/assets/hm3.jpg?preset=img&format=webp&srcset";
 import imgHm3 from "@/assets/hm3.jpg?preset=img&src";
 import srcsetHm3 from "@/assets/hm3.jpg?preset=img&srcset";
+
+import webpHm4 from "@/assets/hm4.jpg?preset=img&format=webp&srcset";
+import imgHm4 from "@/assets/hm4.jpg?preset=img&src";
+import srcsetHm4 from "@/assets/hm4.jpg?preset=img&srcset";
+
+import webpHm5 from "@/assets/hm5.jpg?preset=img&format=webp&srcset";
+import imgHm5 from "@/assets/hm5.jpg?preset=img&src";
+import srcsetHm5 from "@/assets/hm5.jpg?preset=img&srcset";
 const items = [
+  {
+    images:{
+      webp:webpHm4,
+      img:imgHm4,
+      srcset:srcsetHm4,
+    },
+    title: 'アイデアの実現性を検証したいがわからない',
+    message: '「あなたの組織のCTO」では、あなたのアイデアの実現性を技術的観点からの検証にご利用頂けます。\n' +
+        '適切な技術スタックやアーキテクチャの選定、スケーラビリティやセキュリティの確認などを行い、プロトタイプ開発に向けた詳細な計画を提供します。\n' +
+        'これにより、<span>リスクを最小限に抑えた実装が可能</span>となります。'
+  },
   {
     images:{
       webp:webpHm1,
@@ -36,11 +55,10 @@ const items = [
       img:imgHm2,
       srcset:srcsetHm2,
     },
-    title: 'システムの開発を依頼したいけど、納品までの対応、流れがわからない。',
-    message: '「システム開発業者に依頼して開発をすすめてもらっておけばいいのでは」と思うでしょうがそれは危険です。' +
-        '受託側のゴールは委託者に納品することですが、委託者は完成物を運用していく事も考えなければなりません。\n' +
-        'しかし、委託者の技術知識の有無によっては運用も完全委託となり<span>想定コストが増加する</span>傾向にあります。' +
-        'これを防ぐため、本サービスでは、お客様の技術知識のサポートをさせていただきます。'
+    title: '新規事業を始めるがなにをしたら良いかわからない',
+    message: '「あなたの組織のCTO」は、新規事業の立ち上げにおける専門知識と経験を提供します。\n' +
+        'ビジネスアイデアの技術的実現可能性や市場適合性を評価し、具体的な実行計画を策定する支援を行います。\n' +
+        'これにより、プロジェクトの立ち上げがスムーズに進み、<span>効率的なリソース活用</span>が実現します。'
   },
   {
     images:{
@@ -62,6 +80,17 @@ const items = [
     title: '技術選定をしたが、問題がないかチェックする機構がない',
     message: '本サービスではプロジェクトに必要な技術選定からご相談いただけます。\n' +
         '最適な技術に基づく、<span>効率的な開発</span>を進めることが可能です。'
+  },
+  {
+    images:{
+      webp:webpHm5,
+      img:imgHm5,
+      srcset:srcsetHm5,
+    },
+    title: '妥当性を技術観点からの検証したいがわからない',
+    message: '「あなたの組織のCTO」は、技術的な妥当性を徹底的に検証するための専門知識を提供します。\n' +
+        'アーキテクチャの適合性、技術的な挑戦に対するソリューションの提案、および開発プロセスにおける最善の実践を指導します。\n' +
+        'これにより、<span>プロジェクトの長期的な成功と成長をサポート</span>します。'
   }
 ]
 </script>
