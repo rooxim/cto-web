@@ -14,6 +14,10 @@
                           publishable-key="pk_live_51KtqDVBcykgBJMyJjFFzdgAsejY0oFCPtpENBuXsuC62jj6gMStbltWuj9TTPhK7V21tOTeEmSwQ77zpNFCkmsLp00nmpF1Y6A">
     </stripe-pricing-table>
 
+    <div>
+      ※技術作業工数が発生する場合は、別途お見積りが必要な場合があります。
+    </div>
+
     <div class="note">
       <p><span class="emphasis">スタンダードプランプラン</span>は、<span class="emphasis">フリーランス</span>や<span class="emphasis">個人事業主</span>の方におすすめのプランです。</p>
       <p><span class="emphasis">プレミアムプラン</span>は、<span class="emphasis">その他法人</span>の方におすすめのプランです。</p>
