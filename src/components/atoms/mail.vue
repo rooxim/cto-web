@@ -4,7 +4,7 @@ import { mdiEmail } from '@mdi/js';
 <template>
   <v-btn class="btn" to="contact">
     <v-icon :icon="mdiEmail"></v-icon>
-    <div>お問い合わせ</div>
+    <div>無料でアドバイスをもらう</div>
   </v-btn>
 </template>
 <style scoped lang="scss">

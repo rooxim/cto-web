@@ -7,7 +7,7 @@
       <source type="image/webp" srcset="@/assets/line.png?preset=img&format=webp&srcset">
       <img class="btn-img" src="@/assets/line.png?preset=img&src" srcset="@/assets/line.png?preset=img&srcset" alt="alt" />
     </picture>
-    <div>Lineでお問い合わせ</div>
+    <div>Lineでアドバイスをもらう</div>
   </v-btn>
 </template>
 <style scoped lang="scss">
